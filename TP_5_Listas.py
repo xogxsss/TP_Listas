@@ -33,6 +33,11 @@ animales[-1] = "oso"
 
 print(animales)
 
+#5. Analizar el siguiente programa y explicar con tus palabras qué es lo que realiza.
+numeros = [8, 15, 3, 22, 7] #Creación de una lista llamada "numeros"
+numeros.remove(max(numeros)) #Eliminamos el valor máximo (22)
+print(numeros) #Resultado: [8, 15, 3, 7]
+
 #6. Crear una lista con números del 10-30 (incluído), con paso 5; mostrar los dos primeros
 
 lista = []
